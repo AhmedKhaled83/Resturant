@@ -8,7 +8,7 @@ import FontAwesome5 from 'react-native-vector-icons/FontAwesome5'
 const { width, height } = Dimensions.get("screen")
 
 
-import { Home ,Test} from '../Home/index'
+import { Home ,Profile} from '../Home/index'
 const Tab = createBottomTabNavigator();
 
 
@@ -71,7 +71,7 @@ paddingBottom:5
 
       />
 
-      <Tab.Screen name="Account" component={Test}
+      <Tab.Screen name="Account" component={Profile}
 
         options={{
           // tabBarShowLabel: false,

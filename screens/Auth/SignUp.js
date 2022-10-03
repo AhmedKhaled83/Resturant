@@ -219,7 +219,7 @@ const SignUp = ({navigation}) => {
             <View style={styles.viewIconLogin}>
               <TouchableOpacity
                 onPress={() => {
-                //   navigation.navigate('Login');
+                  navigation.navigate('Login');
                 }}>
                 <Text style={styles.textIcon}>تسجيل الدخول</Text>
               </TouchableOpacity>
